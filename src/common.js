@@ -29,6 +29,15 @@ export function toRadian(a) {
 }
 
 /**
+ * Convert Radian To Degree
+ *
+ * @param {Number} a Angle in Radians
+ */
+export function toDegree(a) {
+  return a / degree;
+}
+
+/**
  * Tests whether or not the arguments have approximately the same value, within an absolute
  * or relative tolerance of glMatrix.EPSILON (an absolute tolerance is used for values less
  * than or equal to 1.0, and a relative tolerance is used for larger values)
